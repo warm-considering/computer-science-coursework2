@@ -1,0 +1,60 @@
+<!DOCTYPE XUPProject>
+<!--
+###########################################################################################
+##      Created using Monkey Studio IDE v1.9.0.4 (1.9.0.4)
+##
+##  Author    : Sean Mullins <qwertyuiop3312@gmail.com>
+##  Project   : $Project Name$
+##  FileName  : $Project Name$.xpythonqt
+##  Date      : 2017-11-07T09:56:31
+##  License   : GPL
+##  Comment   : $Comment$
+##  Home Page : http://www.mlglads.ga
+##
+##  This file is provided AS IS with NO WARRANTY OF ANY KIND, INCLUDING THE
+##  WARRANTY OF DESIGN, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+##
+###########################################################################################
+-->
+<project version="1.1.0" name="Music Indexer">
+    <variable name="XUP.MAIN_FILE">
+        <value>start.py</value>
+    </variable>
+    <variable name="FORMS">
+        <file>startwindow.ui</file>
+        <file>login.ui</file>
+        <file>register.ui</file>
+        <file>mainwindow.ui</file>
+        <file>settings.ui</file>
+        <file>userdecrypt.ui</file>
+        <file>userdetail.ui</file>
+        <file>edituser.ui</file>
+        <file>edituserdetails.ui</file>
+        <file>songdetails.ui</file>
+        <file>addsongs.ui</file>
+        <file>editsong.ui</file>
+        <file>listendetails.ui</file>
+        <file>deletelistens.ui</file>
+        <file>editlistens.ui</file>
+        <file>editlistensdetails.ui</file>
+    </variable>
+    <variable name="PYTHON_FILES">
+        <file>start.py</file>
+        <file>startwindow.py</file>
+        <file>login.py</file>
+        <file>register.py</file>
+        <file>mainwindow.py</file>
+        <file>settings.py</file>
+        <file>userdecrypt.py</file>
+        <file>userdetail.py</file>
+        <file>edituser.py</file>
+        <file>edituserdetails.py</file>
+        <file>songdetails.py</file>
+        <file>addsongs.py</file>
+        <file>editsong.py</file>
+        <file>listendetails.py</file>
+        <file>deletelistens.py</file>
+        <file>editlistens.py</file>
+        <file>editlistensdetails.py</file>
+    </variable>
+</project>

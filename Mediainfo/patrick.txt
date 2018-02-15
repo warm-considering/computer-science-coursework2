@@ -1,0 +1,287 @@
+Python 3.6.3 (v3.6.3:2c5fed8, Oct  3 2017, 18:11:49) [MSC v.1900 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from pydub import AudioSegment
+>>> from pydub.playback import play
+>>> song = AudioSegment.from_file("D:\\lads\\K-ON! Music History's Box [FLAC]\\Disc 07 - Image Song Season Two [Yui, Mio, Ritsu, Tsumugi, Azusa]\\02 - Hirasawa Yui - Shiawase Hiyori.flac", "flac")
+>>> play(song)
+>>>
+>>> from pydub.utils import mediainfo
+>>> mediainfo(song)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\Sean\AppData\Local\Programs\Python\Python36\lib\site-packages\pydub\utils.py", line 211, in mediainfo
+    res = Popen(command, stdout=PIPE)
+  File "C:\Users\Sean\AppData\Local\Programs\Python\Python36\lib\subprocess.py", line 709, in __init__
+    restore_signals, start_new_session)
+  File "C:\Users\Sean\AppData\Local\Programs\Python\Python36\lib\subprocess.py", line 971, in _execute_child
+    args = list2cmdline(args)
+  File "C:\Users\Sean\AppData\Local\Programs\Python\Python36\lib\subprocess.py", line 489, in list2cmdline
+    return ''.join(result)
+TypeError: sequence item 52: expected str instance, AudioSegment found
+>>>
+>>> mediainfo(Uraraka osanpo hiyori mune ippai shinkokyuu hiyori
+  File "<stdin>", line 1
+    mediainfo(Uraraka osanpo hiyori mune ippai shinkokyuu hiyori
+                           ^
+SyntaxError: invalid syntax
+>>> Ichi jikan hayaku natta mezamashi ga kureta chiisai odekake taimu
+  File "<stdin>", line 1
+    Ichi jikan hayaku natta mezamashi ga kureta chiisai odekake taimu
+             ^
+SyntaxError: invalid syntax
+>>>
+>>> Glorious, perfect weather for a stroll, perfect weather to fill your lungs with air
+  File "<stdin>", line 1
+    Glorious, perfect weather for a stroll, perfect weather to fill your lungs with air
+                            ^
+SyntaxError: invalid syntax
+>>> The alarm clock went off an hour early so there's a little time to go out
+  File "<stdin>", line 1
+    The alarm clock went off an hour early so there's a little time to go out
+            ^
+SyntaxError: invalid syntax
+>>>
+>>> Fukufuku koinu fuwafuwa na kumo purantaa no hana ni mo ne
+  File "<stdin>", line 1
+    Fukufuku koinu fuwafuwa na kumo purantaa no hana ni mo ne
+                 ^
+SyntaxError: invalid syntax
+>>> Egao ga koborechau yo doushite ka na?
+  File "<stdin>", line 1
+    Egao ga koborechau yo doushite ka na?
+          ^
+SyntaxError: invalid syntax
+>>> Wakannai demo ne... ufufu
+  File "<stdin>", line 1
+    Wakannai demo ne... ufufu
+                ^
+SyntaxError: invalid syntax
+>>>
+>>> Sniffing puppy, fluffy clouds, and the flowers in the pot
+  File "<stdin>", line 1
+    Sniffing puppy, fluffy clouds, and the flowers in the pot
+                 ^
+SyntaxError: invalid syntax
+>>> I can't stop smiling, I wonder why?
+  File "<stdin>", line 1
+    I can't stop smiling, I wonder why?
+        ^
+SyntaxError: invalid syntax
+>>> I don't know but... tehehe
+  File "<stdin>", line 1
+    I don't know but... tehehe
+        ^
+SyntaxError: invalid syntax
+>>>
+>>> Nikkori to ne "ohayou" shiranai hito ni mo "ohayou"
+  File "<stdin>", line 1
+    Nikkori to ne "ohayou" shiranai hito ni mo "ohayou"
+             ^
+SyntaxError: invalid syntax
+>>> Ikiterutte ii na hayaokitte ii na ohirune mo ii kedo ne
+  File "<stdin>", line 1
+    Ikiterutte ii na hayaokitte ii na ohirune mo ii kedo ne
+                ^
+SyntaxError: invalid syntax
+>>> Ranra
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'Ranra' is not defined
+>>>
+>>> I say "Good morning" with a happy smile, say "Good morning" to a person I don't know
+  File "<stdin>", line 1
+    I say "Good morning" with a happy smile, say "Good morning" to a person I don't know
+        ^
+SyntaxError: invalid syntax
+>>> It's nice to be alive, it's nice to be up early, though afternoon naps are nice too
+  File "<stdin>", line 1
+    It's nice to be alive, it's nice to be up early, though afternoon naps are nice too
+                             ^
+SyntaxError: invalid syntax
+>>> Lanla
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'Lanla' is not defined
+>>>
+>>> Ippo niho osanpo hiyori uta utatte hamingu hiyori
+  File "<stdin>", line 1
+    Ippo niho osanpo hiyori uta utatte hamingu hiyori
+            ^
+SyntaxError: invalid syntax
+>>> Dare to mo yakusoku shite nakutemo heiki jiyuu na odekake taimu
+  File "<stdin>", line 1
+    Dare to mo yakusoku shite nakutemo heiki jiyuu na odekake taimu
+          ^
+SyntaxError: invalid syntax
+>>>
+>>> One step, two steps, perfect weather for a stroll, perfect weather for singing and humming
+  File "<stdin>", line 1
+    One step, two steps, perfect weather for a stroll, perfect weather for singing and humming
+           ^
+SyntaxError: invalid syntax
+>>> Even if I don't have plans with someone it's fine, there's time to go out where ever I like
+  File "<stdin>", line 1
+    Even if I don't have plans with someone it's fine, there's time to go out where ever I like
+                ^
+SyntaxError: invalid syntax
+>>>
+>>> Sunaba no oshiro kankeri suberidai buranko wa junbanmachi
+  File "<stdin>", line 1
+    Sunaba no oshiro kankeri suberidai buranko wa junbanmachi
+            ^
+SyntaxError: invalid syntax
+>>> Miteta hazu ga sanka shiteru doushite ka na?
+  File "<stdin>", line 1
+    Miteta hazu ga sanka shiteru doushite ka na?
+              ^
+SyntaxError: invalid syntax
+>>> Wakannai yappashi... ufufu
+  File "<stdin>", line 1
+    Wakannai yappashi... ufufu
+                    ^
+SyntaxError: invalid syntax
+>>>
+>>> Sand castles, kick the can, the slide, waiting for a turn at the swing
+  File "<stdin>", line 1
+    Sand castles, kick the can, the slide, waiting for a turn at the swing
+               ^
+SyntaxError: invalid syntax
+>>> I want to try them, I wonder why?
+  File "<stdin>", line 1
+    I want to try them, I wonder why?
+         ^
+SyntaxError: invalid syntax
+>>> I don't know after all, tehehe
+  File "<stdin>", line 1
+    I don't know after all, tehehe
+        ^
+SyntaxError: invalid syntax
+>>>
+>>> Sakki no koinu... koinu na no ka naa
+  File "<stdin>", line 1
+    Sakki no koinu... koinu na no ka naa
+           ^
+SyntaxError: invalid syntax
+>>> Moshikashite chiisai inu no, otona datta no kamo...
+  File "<stdin>", line 1
+    Moshikashite chiisai inu no, otona datta no kamo...
+                       ^
+SyntaxError: invalid syntax
+>>> Haa~ kawaikatta naa.
+  File "<stdin>", line 1
+    Haa~ kawaikatta naa.
+       ^
+SyntaxError: invalid syntax
+>>>
+>>> That puppy from earlier... was he really a puppy?
+  File "<stdin>", line 1
+    That puppy from earlier... was he really a puppy?
+             ^
+SyntaxError: invalid syntax
+>>> Maybe he was just a little dog, but a grown-up dog...
+  File "<stdin>", line 1
+    Maybe he was just a little dog, but a grown-up dog...
+           ^
+SyntaxError: invalid syntax
+>>> Ah~ he sure was cute.
+  File "<stdin>", line 1
+    Ah~ he sure was cute.
+      ^
+SyntaxError: invalid syntax
+>>>
+>>> Otona demo kodomo demo inu wa inu hito wa hito watashi wa watashi
+  File "<stdin>", line 1
+    Otona demo kodomo demo inu wa inu hito wa hito watashi wa watashi
+             ^
+SyntaxError: invalid syntax
+>>> Tanoshii wa tanoshii da ne itsudemo
+  File "<stdin>", line 1
+    Tanoshii wa tanoshii da ne itsudemo
+              ^
+SyntaxError: invalid syntax
+>>> Wakatteru yo chanto... ufufu
+  File "<stdin>", line 1
+    Wakatteru yo chanto... ufufu
+               ^
+SyntaxError: invalid syntax
+>>>
+>>> Whether they're an adult or child, a dog is a dog, a person is a person, and I am me
+  File "<stdin>", line 1
+    Whether they're an adult or child, a dog is a dog, a person is a person, and I am me
+               ^
+SyntaxError: invalid syntax
+>>> Fun things are fun, no matter what
+  File "<stdin>", line 1
+    Fun things are fun, no matter what
+             ^
+SyntaxError: invalid syntax
+>>> I'll always know that... tehehe
+  File "<stdin>", line 1
+    I'll always know that... tehehe
+                                  ^
+SyntaxError: EOL while scanning string literal
+>>>
+>>> Uraraka osanpo hiyori mune ippai shinkokyuu hiyori
+  File "<stdin>", line 1
+    Uraraka osanpo hiyori mune ippai shinkokyuu hiyori
+                 ^
+SyntaxError: invalid syntax
+>>> Ichi jikan hayaku natta mezamashi ga kureta ooki na shiawase taimu
+  File "<stdin>", line 1
+    Ichi jikan hayaku natta mezamashi ga kureta ooki na shiawase taimu
+             ^
+SyntaxError: invalid syntax
+>>> Lanla
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'Lanla' is not defined
+>>>
+>>> Glorious, perfect weather for a stroll, perfect weather to fill your lungs with air
+  File "<stdin>", line 1
+    Glorious, perfect weather for a stroll, perfect weather to fill your lungs with air
+                            ^
+SyntaxError: invalid syntax
+>>> The alarm clock went off an hour early so there's a ton of time time to be happy
+  File "<stdin>", line 1
+    The alarm clock went off an hour early so there's a ton of time time to be happy
+            ^
+SyntaxError: invalid syntax
+>>> Lanla
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'Lanla' is not defined
+>>> mediainfo("D:\\lads\\K-ON! Music History's Box [FLAC]\\Disc 07 - Image Song Season Two [Yui, Mio, Ritsu, Tsumugi, Azusa]\\02 - Hirasawa Yui - Shiawase Hiyori.flac")
+{'index': '0', 'codec_name': 'flac', 'codec_long_name': 'FLAC (Free Lossless Audio Codec)', 'profile': 'unknown', 'codec_type': 'audio', 'codec_time_base': '1/44100', 'codec_tag_string': '[0][0][0][0]', 'codec_tag': '0x0000', 'sample_fmt': 's16', 'sample_rate': '44100', 'channels': '2', 'channel_layout': 'stereo', 'bits_per_sample': '0', 'id': 'N/A', 'r_frame_rate': '0/0', 'avg_frame_rate': '0/0', 'time_base': '1/44100', 'start_pts': '0', 'start_time': '0.000000', 'duration_ts': '9931320', 'duration': '225.200000', 'bit_rate': '1020513', 'max_bit_rate': 'N/A', 'bits_per_raw_sample': '16', 'nb_frames': 'N/A', 'nb_read_frames': 'N/A', 'nb_read_packets': 'N/A', 'DISPOSITION': {'default': '0', 'dub': '0', 'original': '0', 'comment': '0', 'lyrics': '0', 'karaoke': '0', 'forced': '0', 'hearing_impaired': '0', 'visual_impaired': '0', 'clean_effects': '0', 'attached_pic': '0', 'timed_thumbnails': '0'}, 'filename': "D:\\lads\\K-ON! Music History's Box [FLAC]\\Disc 07 - Image Song Season Two [Yui, Mio, Ritsu, Tsumugi, Azusa]\\02 - Hirasawa Yui - Shiawase Hiyori.flac", 'nb_streams': '1', 'nb_programs': '0', 'format_name': 'flac', 'format_long_name': 'raw FLAC', 'size': '28727461', 'probe_score': '100', 'TAG': {'ARTIST': 'Hirasawa Yui', 'TITLE': 'Shiawase Hiyori', 'ALBUM': "K-ON! Music History's Box", 'DATE': '2013', 'track': '02', 'GENRE': 'Anime', 'album_artist': 'Various Artists', 'disc': '7', 'TOTALDISCS': '12', 'TOTALTRACKS': '15'}}
+>>> info = mediainfo("D:\\lads\\K-ON! Music History's Box [FLAC]\\Disc 07 - Image Song Season Two [Yui, Mio, Ritsu, Tsumugi, Azusa]\\02 - Hirasawa Yui - Shiawase Hiyori.flac")
+>>> len(info)
+36
+>>> info[35]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+KeyError: 35
+>>> info [2
+... ]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+KeyError: 2
+>>> info[2]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+KeyError: 2
+>>> info[2:1]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unhashable type: 'slice'
+>>> info.get[2]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'builtin_function_or_method' object is not subscriptable
+>>> info.get(2)
+>>> print(info.get(2))
+None
+>>> print(info.get("TAG"))
+{'ARTIST': 'Hirasawa Yui', 'TITLE': 'Shiawase Hiyori', 'ALBUM': "K-ON! Music History's Box", 'DATE': '2013', 'track': '02', 'GENRE': 'Anime', 'album_artist': 'Various Artists', 'disc': '7', 'TOTALDISCS': '12', 'TOTALTRACKS': '15'}
+>>> tags = info.get("TAG")
+>>> tags.get("ARTIST")
+'Hirasawa Yui'
+>>>
